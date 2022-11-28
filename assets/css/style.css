@@ -14,8 +14,22 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-skills {	
+    background-color: #ffffff;	
+}
+
 .bg-color-work-history {
     background-color: #9b59b6;
+}
+		
+.bg-color-contact {		
+    background-color: #ffffff;		
+}		
+.bg-color-conferences {		
+    background-color: #f4f4f4;		
+}		
+.bg-color-groups {		
+    background-color: #ffffff;		
 }
 
 .ui-menu-color-home {
@@ -31,10 +45,30 @@
 }
 
 .ui-menu-color-download {
-    background-color: #525252;
+    background-color: #d9a81d;	
+}	
+.ui-menu-color-github {	
+    background-color: #1c4a6c;	
+}	
+.ui-menu-color-interests {	
+    background-color: #e74c3c;	
+}
+.ui-menu-color-github {	
+    background-color: #1c4a6c;	
+}	
+.ui-menu-color-interests {	
+    background-color: #e74c3c;	
+}	
+body {	
+    font-family: Roboto, sans-serif;	
+    font-weight: 300;	
+    background-color: #525252;	
+    color: #555555;	
 }
 
 /* ----------------------------------------Special paddings/margins/text */
+
+div#map {min-height: 360px;}
 
 h1,
 h2,
@@ -86,14 +120,12 @@ header {
 }
 
 .logo {
-    background: url("../images/me.jpg");
+    background: url("../images/cvpic.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    
 }
 
 .name {
@@ -242,7 +274,7 @@ footer {
 .personal-info-item .key,
 .personal-info-item .value {
     padding-right: 8px;
-    display: inline-block;
+    
 }
 
 .personal-info-item .key p,
@@ -251,6 +283,7 @@ footer {
 }
 
 .personal-info-item .key {
+    display: inline-block;
     width: 30%;
     margin-right: 21px;
     padding-top: 2px;
@@ -262,6 +295,7 @@ footer {
 }
 
 .personal-info-item .value {
+    display: inline-block;
     position: relative;
     width: 60%;
 }
@@ -271,7 +305,7 @@ footer {
 .progress {
     position: relative;
     height: 25px;
-    margin-bottom: 4px;
+    
 }
 
 .progress-type {
@@ -289,10 +323,6 @@ footer {
 
 /* ----------------------------------------Work History */
 
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -314,12 +344,12 @@ footer {
     display: block;
     font-family: "Exo", sans-serif;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em;
     padding: 0;
     margin: 0;
 }
 
-.timeline-item:after {
+.timeline-item::after {
     width: 12px;
     height: 12px;
     display: block;
@@ -329,6 +359,11 @@ footer {
     border-radius: 12px;
     content: '';
     background: #fafafa;
+}
+
+.history-heading {	
+    color: #fafafa;	
+    margin-bottom: 50px;	
 }
 
 .history-items {

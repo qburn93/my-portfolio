@@ -194,7 +194,7 @@
     </footer>
     <script> 
         function initMap () {
-            var map = new google.maps(document.getElementById("map"), {
+            var map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 3,
                 center: {
                     lat: 46.619261,
@@ -211,6 +211,7 @@
     </script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByZ_TGJjpOIs41QmYTm89Owf3V5BdFvgU&callback=initMap"></script>
+    
 </body>
 
 </html>

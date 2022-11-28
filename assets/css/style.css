@@ -68,7 +68,7 @@ body {
 
 /* ----------------------------------------Special paddings/margins/text */
 
-div#map {min-height: 360px;}
+#map {min-height: 360px;}
 
 h1,
 h2,
